@@ -36,6 +36,5 @@ predicted_price = regression.predict(test_predictors)
 # depende si sube o baja
 if predicted_price > test_data.iloc[0, 2]:
     print("The price of ETHUSDT is predicted to go up.")
-    
 else:
     print("The price of ETHUSDT is predicted to go down.")
