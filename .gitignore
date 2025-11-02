@@ -1,0 +1,37 @@
+### Archivos de Entorno y Seguridad ###
+# Archivos con variables de entorno y secretos: ¡CRUCIAL!
+.env
+.flaskenv
+secrets.json
+
+### Entornos Virtuales ###
+# Excluye directorios de entornos virtuales (Grandes y regenerables)
+venv/
+env/
+.venv/
+
+### Archivos de Python y Bytecode ###
+# Archivos compilados generados por CPython
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+### Directorios de Construcción y Dependencias ###
+# Directorios creados durante la instalación o compilación
+build/
+dist/
+*.egg-info/
+
+### Archivos del IDE (Opcional, pero recomendado) ###
+# Excluye archivos de configuración específicos de editores como VS Code o PyCharm
+.vscode/
+.idea/
+
+### Archivos de Testing y Cobertura ###
+.pytest_cache/
+.coverage
+
+### Exclusiones Generales de Sistemas Operativos ###
+.DS_Store # macOS
+Thumbs.db # Windows
